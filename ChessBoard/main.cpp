@@ -1,4 +1,4 @@
-#include<iostream>
+﻿#include<iostream>
 using namespace std;
 using std::cout;
 using std::cin;
@@ -11,7 +11,7 @@ void main() {
 	cout << "Enter board size: "; cin >> n;
 	cout << endl;
 
-	for (int i = 1; i <= n * n; i++) // go to the down
+	for (int i = 1; i <= n * n; i++) // идём вперёд
 	{
 		for (int j = 1; j <= n * n; j++) // go to the right
 		{
